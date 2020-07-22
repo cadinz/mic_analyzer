@@ -1,0 +1,77 @@
+PODS:
+  - AudioKit (4.10.1):
+    - AudioKit/Core (= 4.10.1)
+    - AudioKit/UI (= 4.10.1)
+  - AudioKit/Core (4.10.1)
+  - AudioKit/UI (4.10.1):
+    - AudioKit/Core
+  - Flutter (1.0.0)
+  - flutter_sound_lite (0.0.1):
+    - AudioKit (~> 4.0)
+    - Flutter
+  - just_audio (0.0.1):
+    - Flutter
+  - mic_analyzer (0.0.1):
+    - AudioKit (~> 4.0)
+    - Flutter
+  - path_provider (0.0.1):
+    - Flutter
+  - path_provider_linux (0.0.1):
+    - Flutter
+  - path_provider_macos (0.0.1):
+    - Flutter
+  - "permission_handler (5.0.1+1)":
+    - Flutter
+  - sound_stream (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_sound_lite (from `.symlinks/plugins/flutter_sound_lite/ios`)
+  - just_audio (from `.symlinks/plugins/just_audio/ios`)
+  - mic_analyzer (from `.symlinks/plugins/mic_analyzer/ios`)
+  - path_provider (from `.symlinks/plugins/path_provider/ios`)
+  - path_provider_linux (from `.symlinks/plugins/path_provider_linux/ios`)
+  - path_provider_macos (from `.symlinks/plugins/path_provider_macos/ios`)
+  - permission_handler (from `.symlinks/plugins/permission_handler/ios`)
+  - sound_stream (from `.symlinks/plugins/sound_stream/ios`)
+
+SPEC REPOS:
+  trunk:
+    - AudioKit
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_sound_lite:
+    :path: ".symlinks/plugins/flutter_sound_lite/ios"
+  just_audio:
+    :path: ".symlinks/plugins/just_audio/ios"
+  mic_analyzer:
+    :path: ".symlinks/plugins/mic_analyzer/ios"
+  path_provider:
+    :path: ".symlinks/plugins/path_provider/ios"
+  path_provider_linux:
+    :path: ".symlinks/plugins/path_provider_linux/ios"
+  path_provider_macos:
+    :path: ".symlinks/plugins/path_provider_macos/ios"
+  permission_handler:
+    :path: ".symlinks/plugins/permission_handler/ios"
+  sound_stream:
+    :path: ".symlinks/plugins/sound_stream/ios"
+
+SPEC CHECKSUMS:
+  AudioKit: b8e508a0af3dc7d53caf0ca1002b187a662f949e
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_sound_lite: 7a4eb14e94ef4433f479e755f0cd796bda177f84
+  just_audio: baa7252489dbcf47a4c7cc9ca663e9661c99aafa
+  mic_analyzer: a32b9b5b131a520adf79d4fcab2720b0667e85cb
+  path_provider: abfe2b5c733d04e238b0d8691db0cfd63a27a93c
+  path_provider_linux: 4d630dc393e1f20364f3e3b4a2ff41d9674a84e4
+  path_provider_macos: f760a3c5b04357c380e2fddb6f9db6f3015897e0
+  permission_handler: eac8e15b4a1a3fba55b761d19f3f4e6b005d15b6
+  sound_stream: eba0f2a5994b91d9e5009a739df6e98515a7b44f
+
+PODFILE CHECKSUM: 0996db0119614172a6df592521828dce3f145e22
+
+COCOAPODS: 1.10.0.beta.1
