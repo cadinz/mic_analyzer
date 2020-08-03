@@ -68,6 +68,13 @@ var mic: AKMicrophone!
         let amplitude = Float(tracker.amplitude);
         let amplitudeR: NSNumber = NSNumber(value: amplitude)
          result(amplitudeR);
+    }else if(call.method == "dispose"){
+        do {
+        try AudioKit.stop();
+        }catch{
+            AKLog("AudioKit did not stop!")
+        }
+        result("");
     }
     
     
